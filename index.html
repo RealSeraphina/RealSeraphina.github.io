@@ -32,11 +32,18 @@
 
 <body>
 
-  <h1>Yes</h1>
+  <h1 id="answer">NO</h1>
+  <script>
+    if(Number(1) === Number(1)){
+        document.getElementById("answer").innerHTML = "YES"
+    }
+  </script>
 
 <!--
+    The default response for this pare is "NO" unless my script determines tha One does in fact equal One 
+    as numerical values the page should display "NO".
     In the case you have discovered One no longer equals One please contact Seraphina with your proof(s)
-    immediatly at xxseraphinaxx@proton.me. 
+    immediatly at xxseraphinaxx@proton.me.
 
     NOTE: Parts of this project were inspired by https://www.hasthelargehadroncolliderdestroyedtheworldyet.com/
 -->
